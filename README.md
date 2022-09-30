@@ -1,2 +1,3 @@
-# ck0087-fundamentos-de-programacao
+# Fundamentos de Programação
+
 Arquivos com os códigos da disciplina de fundamentos de programação.
