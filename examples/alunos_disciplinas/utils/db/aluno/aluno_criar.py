@@ -21,14 +21,20 @@ def gerar_matricula():
 def criar(nome: str):
     """Adiciona aluno com nome dado no banco de dados"""
 
-    if not nome.isinstance(str):
+    if not type(nome) == str:
         raise TypeError("nome tem que ser string")
     aluno = {
         "nome": nome,
         "disciplinas": [],
         "matricula": gerar_matricula()
     }
-    with open(LOCAL_ARQUIVO, "a", encoding="utf8") as file:
-        json.dump(aluno, file)
+
+    with open(LOCAL_ARQUIVO, encoding="utf8") as file:
+        alunos = json.load(file)
+
+    alunos.append(aluno)
+
+    with open(LOCAL_ARQUIVO, "w", encoding="utf8") as file:
+        json.dump(alunos, file)
 
     return aluno

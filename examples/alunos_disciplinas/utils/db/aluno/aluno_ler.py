@@ -8,7 +8,7 @@ LOCAL_ARQUIVO = "./data/alunos.json"
 def ler(matricula: int):
     """Lê aluno do banco com matricula dada ou nome dado."""
 
-    if not matricula.isinstance(int):
+    if not type(matricula) == int:
         raise TypeError("matricula tem que ser inteiro")
 
     with open(LOCAL_ARQUIVO, encoding="utf8") as file:
@@ -22,7 +22,7 @@ def ler(matricula: int):
 def listar(nome: str):
     """Lista todos os alunos que tem nome."""
 
-    if not nome.isinstance(str):
+    if not type(nome) == str:
         raise TypeError("nome tem que ser string")
 
     with open(LOCAL_ARQUIVO, encoding="utf8") as file:

@@ -18,7 +18,7 @@ def ler(codigo: str):
 
 
 def listar(nome: str):
-    if not nome.isinstance(str):
+    if not type(nome) == str:
         raise TypeError("nome tem que ser string")
 
     with open(LOCAL_ARQUIVO, encoding="utf8") as file:

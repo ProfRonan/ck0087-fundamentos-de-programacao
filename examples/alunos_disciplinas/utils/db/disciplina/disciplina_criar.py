@@ -6,9 +6,9 @@ LOCAL_ARQUIVO = "./data/disciplinas.json"
 
 
 def criar(codigo: str, nome: str):
-    if not codigo.isinstance(str):
+    if not type(codigo) == str:
         raise TypeError("codigo tem que ser string")
-    if not nome.isinstance(str):
+    if not type(nome) == str:
         raise TypeError("nome tem que ser string")
 
     with open(LOCAL_ARQUIVO, encoding="utf8") as file:
