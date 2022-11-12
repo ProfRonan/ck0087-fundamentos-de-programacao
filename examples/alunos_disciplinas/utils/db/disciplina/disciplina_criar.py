@@ -5,9 +5,9 @@ import json
 LOCAL_ARQUIVO = "./data/disciplinas.json"
 
 
-def criar(codigo: str, nome: str):
-    if not type(codigo) == str:
-        raise TypeError("codigo tem que ser string")
+def criar(código: str, nome: str):
+    if not type(código) == str:
+        raise TypeError("código tem que ser string")
     if not type(nome) == str:
         raise TypeError("nome tem que ser string")
 
@@ -15,11 +15,11 @@ def criar(codigo: str, nome: str):
         disciplinas = json.load(file)
 
     for disciplina in disciplinas:
-        if disciplina["codigo"] == codigo:
-            raise BaseException("disciplina com codigo dado ja existe")
+        if disciplina["código"] == código:
+            raise BaseException("disciplina com código dado ja existe")
 
     disciplina = {
-        "codigo": codigo,
+        "código": código,
         "nome": nome
     }
     with open(LOCAL_ARQUIVO, "a", encoding="utf8") as file:

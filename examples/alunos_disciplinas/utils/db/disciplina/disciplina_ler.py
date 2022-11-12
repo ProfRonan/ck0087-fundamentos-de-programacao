@@ -5,14 +5,14 @@ import json
 LOCAL_ARQUIVO = "./data/disciplinas.json"
 
 
-def ler(codigo: str):
-    if not codigo.isinstance(str):
-        raise TypeError("codigo tem que ser string")
+def ler(código: str):
+    if not código.isinstance(str):
+        raise TypeError("código tem que ser string")
     with open(LOCAL_ARQUIVO, encoding="utf8") as file:
         disciplinas = json.load(file)
 
     for disciplina in disciplinas:
-        if disciplina["codigo"] == codigo:
+        if disciplina["código"] == código:
             return disciplina
     return None
 

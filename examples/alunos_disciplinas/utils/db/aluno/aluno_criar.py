@@ -5,15 +5,15 @@ import json
 LOCAL_ARQUIVO = "./data/alunos.json"
 
 
-def gerar_matricula():
-    """Gera um número de matricula que não existe no banco"""
+def gerar_matrícula():
+    """Gera um número de matrícula que não existe no banco"""
     with open(LOCAL_ARQUIVO, encoding="utf8") as file:
         alunos = json.load(file)
 
     maior = 0
     for aluno in alunos:
-        if maior < aluno["matricula"]:
-            maior = aluno["matricula"]
+        if maior < aluno["matrícula"]:
+            maior = aluno["matrícula"]
 
     return maior + 1
 
@@ -26,7 +26,7 @@ def criar(nome: str):
     aluno = {
         "nome": nome,
         "disciplinas": [],
-        "matricula": gerar_matricula()
+        "matrícula": gerar_matrícula()
     }
 
     with open(LOCAL_ARQUIVO, encoding="utf8") as file:

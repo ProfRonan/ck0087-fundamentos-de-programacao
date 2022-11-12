@@ -5,16 +5,16 @@ import json
 LOCAL_ARQUIVO = "./data/alunos.json"
 
 
-def ler(matricula: int):
-    """Lê aluno do banco com matricula dada ou nome dado."""
+def ler(matrícula: int):
+    """Lê aluno do banco com matrícula dada ou nome dado."""
 
-    if not type(matricula) == int:
-        raise TypeError("matricula tem que ser inteiro")
+    if not type(matrícula) == int:
+        raise TypeError("matrícula tem que ser inteiro")
 
     with open(LOCAL_ARQUIVO, encoding="utf8") as file:
         alunos = json.load(file)
     for aluno in alunos:
-        if aluno["matricula"] == matricula:
+        if aluno["matrícula"] == matrícula:
             return aluno
     return None
 
