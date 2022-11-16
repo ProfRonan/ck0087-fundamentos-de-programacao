@@ -7,5 +7,12 @@
     "pygame",
     "Supercalifragilisticexpialidocius",
     "Uaeiou"
-  ]
+  ],
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintArgs": [
+    "--disable",
+    "non-ascii-name, line-too-long, missing-function-docstring",
+    "--extension-pkg-whitelist=pygame"
+  ],
+  "python.linting.enabled": false
 }

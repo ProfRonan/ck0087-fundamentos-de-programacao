@@ -6,7 +6,7 @@ LOCAL_ARQUIVO = "./data/disciplinas.json"
 
 
 def ler(código: str):
-    if not código.isinstance(str):
+    if not type(código) == str:
         raise TypeError("código tem que ser string")
     with open(LOCAL_ARQUIVO, encoding="utf8") as file:
         disciplinas = json.load(file)

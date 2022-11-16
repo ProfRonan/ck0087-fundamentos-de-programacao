@@ -22,7 +22,10 @@ def criar(código: str, nome: str):
         "código": código,
         "nome": nome
     }
-    with open(LOCAL_ARQUIVO, "a", encoding="utf8") as file:
-        json.dump(disciplina, file)
+
+    disciplinas.append(disciplina)
+
+    with open(LOCAL_ARQUIVO, "w", encoding="utf8") as file:
+        json.dump(disciplinas, file, ensure_ascii=False)
 
     return disciplina

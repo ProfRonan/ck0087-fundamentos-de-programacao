@@ -25,7 +25,6 @@ def criar(nome: str):
         raise TypeError("nome tem que ser string")
     aluno = {
         "nome": nome,
-        "disciplinas": [],
         "matrícula": gerar_matrícula()
     }
 
@@ -35,6 +34,6 @@ def criar(nome: str):
     alunos.append(aluno)
 
     with open(LOCAL_ARQUIVO, "w", encoding="utf8") as file:
-        json.dump(alunos, file)
+        json.dump(alunos, file, ensure_ascii=False)
 
     return aluno
