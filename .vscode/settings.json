@@ -1,16 +1,7 @@
 {
-  "cSpell.words": [
-    "AEIO",
-    "Fghijklmnopqrstuvxwyz",
-    "frozenset",
-    "irracionais",
-    "pygame",
-    "Supercalifragilisticexpialidocius",
-    "Uaeiou"
-  ],
+  "cSpell.words": ["emchergar"],
   "python.linting.pylintEnabled": true,
   "python.linting.pylintArgs": [
-    "--disable",
     "non-ascii-name, line-too-long, missing-function-docstring",
     "--extension-pkg-whitelist=pygame"
   ],
