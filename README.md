@@ -4,20 +4,21 @@ Arquivos com as notas de aula da disciplina de fundamentos de programação.
 
 Conteúdo da disciplina:
 
-- [Chapter 1 – Python Basics](https://automatetheboringstuff.com/2e/chapter1/)
-- [Chapter 2 – Flow Control](https://automatetheboringstuff.com/2e/chapter2/)
-- [Chapter 3 – Functions](https://automatetheboringstuff.com/2e/chapter3/)
-- [Chapter 4 – Lists](https://automatetheboringstuff.com/2e/chapter4/)
-- [Chapter 5 – Dictionaries and Structuring Data](https://automatetheboringstuff.com/2e/chapter5/)
-- [Chapter 6 – Manipulating Strings](https://automatetheboringstuff.com/2e/chapter6/)
+- [Introdução](https://automatetheboringstuff.com/2e/chapter0/) ➡️ [Notas de aula](notas_de_aula/introdução/introdução.ipynb)
+- [Capítulo 1 – Python Básico](https://automatetheboringstuff.com/2e/chapter1/)
+- [Capítulo 2 – Controle de Fluxo](https://automatetheboringstuff.com/2e/chapter2/)
+- [Capítulo 3 – Funções](https://automatetheboringstuff.com/2e/chapter3/)
+- [Capítulo 4 – Listas](https://automatetheboringstuff.com/2e/chapter4/)
+- [Capítulo 5 – Dicionários e Dados Estruturados](https://automatetheboringstuff.com/2e/chapter5/)
+- [Capítulo 6 – Manipulação de Strings](https://automatetheboringstuff.com/2e/chapter6/)
 
 ### Listas de Exercícios "Fáceis"
 
-- [EstruturaSequencial](https://wiki.python.org.br/EstruturaSequencial)
-- [EstruturaDeDecisao](https://wiki.python.org.br/EstruturaDeDecisao)
-- [EstruturaDeRepeticao](https://wiki.python.org.br/EstruturaDeRepeticao)
-- [ExerciciosListas](https://wiki.python.org.br/ExerciciosListas)
-- [ExerciciosFuncoes](https://wiki.python.org.br/ExerciciosFuncoes)
-- [ExerciciosComStrings](https://wiki.python.org.br/EstruturaSequencial)
+- [Estrutura Sequencial](https://wiki.python.org.br/EstruturaSequencial)
+- [Estrutura de Decisão](https://wiki.python.org.br/EstruturaDeDecisao)
+- [Estrutura de Repetição](https://wiki.python.org.br/EstruturaDeRepeticao)
+- [Listas](https://wiki.python.org.br/ExerciciosListas)
+- [Funções](https://wiki.python.org.br/ExerciciosFuncoes)
+- [Strings](https://wiki.python.org.br/EstruturaSequencial)
 
 ### Listas de Exercícios "Difíceis"
