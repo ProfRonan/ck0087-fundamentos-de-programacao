@@ -1,23 +1,17 @@
 # Fundamentos de Programação
 
-Arquivos com os códigos da disciplina de fundamentos de programação.
+Arquivos com as notas de aula da disciplina de fundamentos de programação.
 
-
-## Conteúdo da Segunda Prova
-
-Principal:
-
-- [Chapter 4 – Lists](https://automatetheboringstuff.com/2e/chapter4/)
-- [Chapter 5 – Dictionaries and Structuring Data](https://automatetheboringstuff.com/2e/chapter5/)
-- [Chapter 6 – Manipulating Strings](https://automatetheboringstuff.com/2e/chapter6/)
-
-Secundário:
+Conteúdo da disciplina:
 
 - [Chapter 1 – Python Basics](https://automatetheboringstuff.com/2e/chapter1/)
 - [Chapter 2 – Flow Control](https://automatetheboringstuff.com/2e/chapter2/)
 - [Chapter 3 – Functions](https://automatetheboringstuff.com/2e/chapter3/)
+- [Chapter 4 – Lists](https://automatetheboringstuff.com/2e/chapter4/)
+- [Chapter 5 – Dictionaries and Structuring Data](https://automatetheboringstuff.com/2e/chapter5/)
+- [Chapter 6 – Manipulating Strings](https://automatetheboringstuff.com/2e/chapter6/)
 
-### Exercícios Recomendados
+### Listas de Exercícios "Fáceis"
 
 - [EstruturaSequencial](https://wiki.python.org.br/EstruturaSequencial)
 - [EstruturaDeDecisao](https://wiki.python.org.br/EstruturaDeDecisao)
@@ -25,3 +19,5 @@ Secundário:
 - [ExerciciosListas](https://wiki.python.org.br/ExerciciosListas)
 - [ExerciciosFuncoes](https://wiki.python.org.br/ExerciciosFuncoes)
 - [ExerciciosComStrings](https://wiki.python.org.br/EstruturaSequencial)
+
+### Listas de Exercícios "Difíceis"
