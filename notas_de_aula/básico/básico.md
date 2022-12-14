@@ -78,8 +78,13 @@ flowchart TD
   idMulti --> idRMulti("((7 + 1) / (3 - 1))")
   idRMulti --> idDiv("/")
   idDiv --> id4("(7 + 1)")
-  id4 --> id7(8)
-  idDiv --> id5("(3 - 1)")
+  id4 --> idSum("+")
+  idSum --> idLSum(7)
+  idSum --> idRSum(1)
+  idDiv --> idSub2("(3 - 1)")
+  idSub2 --> idSubSymbol("-")
+  idSubSymbol --> idLSub2(3)
+  idSubSymbol --> idRSub2(1)
   id5 --> id8(4)
 ```
 
