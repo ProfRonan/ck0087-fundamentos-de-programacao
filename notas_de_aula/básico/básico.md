@@ -29,7 +29,7 @@ Em que ele lê o comando escrito na tela, avalia o resultado, imprime o resultad
 Uma expressão é uma combinação de _operadores_ e _operandos_ resultando em um _valor_.
 
 ```python
->>>2 + 4 + 7 # Expressão com dois operadores de soma e 3 operandos.
+>>> 2 + 4 + 7 # Expressão com dois operadores de soma e 3 operandos.
 13 # Resultado da expressão
 >>> 2**10
 1024
@@ -183,7 +183,3 @@ Leia o restante do capítulo [Python Basics](https://automatetheboringstuff.com/
 Esse texto foi fortemente inspirado no [Automate The Boring Stuff](https://automatetheboringstuff.com/2e/chapter1/) e também está sob a licença [Creative Commons](https://creativecommons.org/licenses/by-nc-sa/3.0/).
 
 [^1]: Eficiente aqui se refere mais sobre como organizar vários programas que devem se comunicar entre sí do que de fato usuários humanos do sistema.
-
-```
-
-```
