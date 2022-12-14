@@ -68,7 +68,7 @@ Dica: um computador não adivinha pensamentos.
 
 ## Leitura Recomendada
 
-Leia o restante do capítulo [Introdução](https://automatetheboringstuff.com/2e/chapter0/) existe a tradução automática do google para páginas inteiras como pode ser visto [clicando aqui](https://automatetheboringstuff-com.translate.goog/2e/chapter0/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=en&_x_tr_pto=wapp).
+Leia o restante do capítulo [Introdução](https://automatetheboringstuff.com/2e/chapter0/) existe a tradução automática do google para páginas inteiras. [Clique aqui para usar o recurso de tradução com o capítulo 0 do livro](https://automatetheboringstuff-com.translate.goog/2e/chapter0/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=en&_x_tr_pto=wapp).
 
 ## Créditos
 
