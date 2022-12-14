@@ -26,11 +26,62 @@ Em que ele lê o comando escrito na tela, avalia o resultado, imprime o resultad
 
 ## Expressões
 
-TODO: escrever texto.
+Uma expressão é uma combinação de _operadores_ e _operandos_ resultando em um _valor_.
+
+```python
+>>>2 + 4 + 7 # Expressão com dois operadores de soma e 3 operandos.
+13 # Resultado da expressão
+>>> 2**10
+1024
+>>> 10**2
+100
+```
 
 ### Operadores Matemáticos
 
-TODO: escrever texto.
+| Operador | Nome            | Exemplo  | Resultado |
+| -------- | --------------- | -------- | --------- |
+| `**`     | Potenciação     | `5**3`   | `125`     |
+| `%`      | Módulo          | `5 % 3`  | `2`       |
+| `//`     | Divisão Inteira | `5 // 3` | `1`       |
+| `/`      | Divisão         | `5 / 3`  | `1.6666`  |
+| `*`      | Multiplicação   | `5 * 3`  | `15`      |
+| `-`      | Subtração       | `5 - 3`  | `2`       |
+| `+`      | Adição          | `5 + 3`  | `8`       |
+
+A ordem de precedência deles é de cima para baixo.
+Contudo, podemos usar parenteses para alterar a precedência.
+
+Ou seja:
+
+```python
+>>> 5 - 1 * 7 + 1 / 3 - 1
+-2.666666666667
+```
+
+Enquanto
+
+```python
+>>> (5 - 1) * ((7 + 1) / (3 - 1))
+16.0
+```
+
+A segunda é avaliada sobrepondo as precedências usando os parênteses como se pode ver no esquema abaixo
+
+```mermaid
+flowchart TD
+  idRoot("(5 - 1) * ((7 + 1) / (3 - 1))") --> idMulti("*")
+  idMulti --> idLMulti("(5 - 1)")
+  idLMulti --> idSub("-")
+  idSub --> idLSub(5)
+  idSub --> idRSub(1)
+  idMulti --> idRMulti("((7 + 1) / (3 - 1))")
+  idRMulti --> idDiv("/")
+  idDiv --> id4("(7 + 1)")
+  id4 --> id7(8)
+  idDiv --> id5("(3 - 1)")
+  id5 --> id8(4)
+```
 
 ## Mensagens de Erros
 
@@ -95,3 +146,7 @@ Leia o restante do capítulo [Python Basics](https://automatetheboringstuff.com/
 Esse texto foi fortemente inspirado no [Automate The Boring Stuff](https://automatetheboringstuff.com/2e/chapter1/) e também está sob a licença [Creative Commons](https://creativecommons.org/licenses/by-nc-sa/3.0/).
 
 [^1]: Eficiente aqui se refere mais sobre como organizar vários programas que devem se comunicar entre sí do que de fato usuários humanos do sistema.
+
+```
+
+```
