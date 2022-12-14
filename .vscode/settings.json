@@ -1,5 +1,8 @@
 {
-  "cSpell.words": ["emchergar"],
+  "cSpell.words": [
+    "emchergar",
+    "Traceback"
+  ],
   "python.linting.pylintEnabled": true,
   "python.linting.pylintArgs": [
     "non-ascii-name, line-too-long, missing-function-docstring",

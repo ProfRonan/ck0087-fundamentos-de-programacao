@@ -90,7 +90,39 @@ flowchart TD
 
 ## Mensagens de Erros
 
-TODO: escrever texto.
+Tentar fazer coisas _proibidas_ pela linguagem resulta em mensagens de erro que podem ser usadas para consertar o código.
+
+```python
+>>> 10 +
+  File "<stdin>", line 1
+    10 +
+        ^
+SyntaxError: invalid syntax
+```
+
+Esse é um erro do tipo `SyntaxError` ele diz na mensagem que a sintaxe usada está errada.
+A soma tem que receber dois operandos e no código só teve um.
+
+```python
+>>> 1 + * 2
+  File "<stdin>", line 1
+    1 + * 2
+        ^
+SyntaxError: invalid syntax
+```
+
+Outro erro sintático, pois a soma precisa de dois operandos, o segundo no caso foi um outro operador.
+
+```python
+>>> 10 / 0
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ZeroDivisionError: division by zero
+```
+
+É impossível fazer uma divisão por zero.
+
+> Mensagens de erro podem e devem ser usadas para resolver problemas com o código.
 
 ## Tipos `int` (Inteiro), `float` (Ponto-flutuante) e `str` (String)
 
