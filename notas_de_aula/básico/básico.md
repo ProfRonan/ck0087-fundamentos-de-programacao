@@ -124,7 +124,8 @@ ZeroDivisionError: division by zero
 
 > Mensagens de erro podem e devem ser usadas para resolver problemas com o código.
 
-Veja a lista de todos os tipos de erros/exceções na [documentação oficial erros/exceções](https://docs.python.org/pt-br/3/library/exceptions.html#built-in-exceptions).
+Uma lista de todos os tipos de erros/exceções embutidos pode ser visto clicando no link a seguir [documentação oficial erros/exceções](https://docs.python.org/pt-br/3/library/exceptions.html#built-in-exceptions).
+Essa lista é bastante extensa e serve mais como referência do que como leitura recomendada.
 
 ## Tipos `int` (Inteiro), `float` (Ponto-flutuante) e `str` (String)
 
