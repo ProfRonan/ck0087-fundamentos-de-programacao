@@ -213,19 +213,75 @@ Tente refazer esse programa sem usar `elif`.
 
 ## Estruturas de Repetição
 
-TODO: Escrever Texto
+São ferramentas de linguagens de programação utilizadas quando se quer repetir um trecho do código várias vezes.
+
+```python
+i = 0
+while True:
+    print(i)
+    i = i + 1
+```
 
 ### `while`
 
-TODO: Escrever Texto
+A estrutura do `while` na sua forma mais simples tem o seguinte formato.
+
+```python
+while condição:
+    # Bloco de comandos
+```
+
+O commando funciona primeiramente fazendo uma avaliação da expressão na condição e caso seja considerada falsa o bloco de comandos é executado.
+Ao final da execução do bloco de comandos, a condição é avaliada e o processo se repete.
+
+A execução do bloco de comandos de uma estrutura de repetição também é chamada de _laço_.
+
+> A condição só é avaliada antes da execução do bloco e entre o final da execução de um laço e antes da execução do próximo.
+
+```python
+# Imprime todos os números inteiros de 0 até 99
+i = 0
+while i < 100:
+    print(i)
+    i += 1
+```
+
+> É possível que uma estrutura de repetição faça com que o programa não acabe nunca, caso a condição para execução do laço não seja falsa.
+>
+> ```python
+> i = 0
+> while i < 1:
+>     print(i) # Sem incrementar o i dentro do bloco, não tem como o i passar a valer mais do que 0
+> ```
 
 ### `continue`
 
-TODO: Escrever Texto
+Ao encontrar a palavra `continue` o laço é interrompido como se tivesse terminado
+
+```python
+i = 0
+while i < 10:
+    print(i)
+    i += 1
+    continue # A instrução depois do continue nunca será executada
+    print(i)
+```
 
 ### `break`
 
-TODO: Escrever Texto
+Ao encontrar a palavra `break` o laço é interrompido e o próximo comando a ser executado é um imediatamente após o `while`.
+
+```python
+i = 0
+while i < 1000:
+    print(i)
+    if i % 2 = 0:
+        break
+    i += 1
+print("Fim")
+```
+
+O programa acima só irá imprimir o primeiro valor de `i` que é zero, após isso como, `i % 2 = 0` é verdadeira e o `break` é encontrado o laço é interrompido e a instrução `print("Fim")` é executada.
 
 ### `for`
 
@@ -246,3 +302,7 @@ Leia o restante do capítulo [Flow Control](https://automatetheboringstuff.com/2
 ## Créditos
 
 Esse texto foi fortemente inspirado no [Automate The Boring Stuff](https://automatetheboringstuff.com/2e/chapter2/) e também está sob a licença [Creative Commons](https://creativecommons.org/licenses/by-nc-sa/3.0/).
+
+```
+
+```
