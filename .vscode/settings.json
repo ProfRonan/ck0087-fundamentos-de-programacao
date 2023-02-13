@@ -1,5 +1,18 @@
 {
-  "cSpell.words": ["elif", "emchergar", "KNOPPIX", "nonlocal", "Traceback"],
+  "cSpell.words": [
+    "booleana",
+    "booleanas",
+    "Booleanas",
+    "booleano",
+    "Booleanos",
+    "elif",
+    "emchergar",
+    "indentado",
+    "indentados",
+    "KNOPPIX",
+    "nonlocal",
+    "Traceback"
+  ],
   "python.linting.pylintEnabled": true,
   "python.linting.pylintArgs": [
     "non-ascii-name, line-too-long, missing-function-docstring",
