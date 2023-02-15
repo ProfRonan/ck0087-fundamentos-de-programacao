@@ -395,7 +395,3 @@ Leia o restante do capítulo [Flow Control](https://automatetheboringstuff.com/2
 ## Créditos
 
 Esse texto foi fortemente inspirado no [Automate The Boring Stuff](https://automatetheboringstuff.com/2e/chapter2/) e também está sob a licença [Creative Commons](https://creativecommons.org/licenses/by-nc-sa/3.0/).
-
-```
-
-```
