@@ -17,4 +17,9 @@ Arquivos com as notas de aula da disciplina de fundamentos de programação.
 - [Hacker Rank - Python](https://www.hackerrank.com/domains/python)
 - [Projeto Euler](https://projecteuler.net/)
 
-### Atividades Propostas
+## Para rodar o repositório
+
+- Crie um ambiente virtual: `python -m venv .venv`
+- Ative o ambiente virtual: `source .venv/bin/activate`
+- Instale as dependências `pip install -r requirements.txt`
+- Se quiser desativar o ambiente virtual: `deactivate`
