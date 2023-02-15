@@ -11,7 +11,8 @@
     "indentados",
     "KNOPPIX",
     "nonlocal",
-    "Traceback"
+    "Traceback",
+    "venv"
   ],
   "python.linting.pylintEnabled": true,
   "python.linting.pylintArgs": [
