@@ -283,17 +283,110 @@ print("Fim")
 
 O programa acima só irá imprimir o primeiro valor de `i` que é zero, após isso como, `i % 2 = 0` é verdadeira e o `break` é encontrado o laço é interrompido e a instrução `print("Fim")` é executada.
 
+### Criando listas de coisas `list`
+
+Uma lista em python é uma coleção de outros objetos.
+
+```python
+[1, "2", 10.3, 5, -2]
+```
+
+Listas podem ser atribuídas à variáveis da mesma forma que os outros objetos.
+
+```python
+lista = [1, "2", 10.3, 5, -2]
+```
+
+Para criar uma lista vazia podemos fazer `[]` ou `list()`.
+
+> Não use `list` como nome de variável ou você não vai mais poder criar uma lista usando `list()`.
+
+Listas podem conter outras listas como elementos.
+
+```python
+lista = [[1, 2], [3, 4], 5]
+```
+
+Para avaliar o valor guardado dentro de uma posição específica da lista podemos fazer `lista[i]` aonde `i` é o índice da posição.
+
+> Em quase toda linguagem de programação toda lista/vetor/sequência começa com índice `0`.
+
+```python
+lista = ["a", "b", [1, 2], 3, 4]
+print(lista[0])     # O resultado é a
+print(lista[1])     # O resultado é b
+print(lista)        # O resultado é ['a', 'b', 2, 3, 4]
+print(lista[2])     # O resultado é [1, 2]
+print(lista[2][0])  # O resultado é 1
+```
+
+Podemos adicionar elementos à uma lista com `nome_da_variável.append(elemento)` e remover com `nome_da_variável.pop(índice)`
+
+```python
+usuários = []
+usuários.append("João")
+usuários.append("George")
+print(usuários)
+usuários.pop(0)  # Remove o João
+print(usuários)
+```
+
 ### `for`
 
-TODO: Escrever Texto
+O `for` pode ser usado para executar um laço sobre todos os valores de uma lista ou outro objeto iterável.
+
+```python
+usuários = ["João", "George"]
+for usuário in usuários:
+    print("O usuário", usuário, "está cadastrado.")
+```
+
+O esqueleto do `for` funciona da seguinte forma:
+
+```python
+for variável in objeto_iterável:
+    # Bloco de comandos
+```
+
+O `for` executa o bloco de comandos para cada valor do objeto iterável colocando esse valor na variável em cada execução do laço.
+
+Uma forma praticamente equivalente de se escrever usando o `while` seria a logo abaixo.
+
+```python
+usuários = ["João", "George"]
+i = 0
+while i < len(usuários): # Aqui len calcula o tamanho da lista
+    usuários = usuários[i]
+    print("O usuário", usuário, "está cadastrado.")
+    i += 1
+```
+
+A escolha entre o `for` e o `while` é mais subjetiva.
+Via de regra, o `for` é utilizado quando se sabe antes do laço começar a executar, quantas vezes ele irá rodar.
+
+> Os comandos `break` e `continue` também funcionam dentro de um `for`.
 
 ### `range`
 
-TODO: Escrever Texto
+A função `range` serve para construir objetos iteráveis (quase listas) que podem ser usadas para iterar sobre os números ou intervalos de números.
 
-### `list`
+```python
+print(range(10)) # vai mostrar só o objeto range
+lista = list(range(10)) # cria uma lista com todos os resultados de range(10)
+print(lista)
+```
 
-TODO: Escrever Texto
+O código acima imprime na tela `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]`.
+
+Podemos então combinar um for com um range para mostrar todos os números pares até `10000`.
+
+```python
+for valor in range(10001):
+    if valor % 2 == 0:
+        print(valor)
+```
+
+Para ver mais sobre o range leia [a documentação](https://docs.python.org/pt-br/3/library/stdtypes.html#typesseq-range).
 
 ## Leitura Recomendada
 
