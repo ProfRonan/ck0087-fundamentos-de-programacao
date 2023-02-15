@@ -2,7 +2,7 @@
 
 Arquivos com as notas de aula da disciplina de fundamentos de programação.
 
-Conteúdo da disciplina:
+## Conteúdo da disciplina
 
 - [Introdução](https://automatetheboringstuff.com/2e/chapter0/) ➡️ [Notas de aula](notas_de_aula/introdução/introdução.md)
 - [Capítulo 1 – Python Básico](https://automatetheboringstuff.com/2e/chapter1/) ➡️ [Notas de Aula](notas_de_aula/básico/básico.md) ➡️ [Exercícios Básicos](https://wiki.python.org.br/EstruturaSequencial)
@@ -12,10 +12,15 @@ Conteúdo da disciplina:
 - [Capítulo 5 – Dicionários e Dados Estruturados](https://automatetheboringstuff.com/2e/chapter5/)
 - [Capítulo 6 – Manipulação de Strings](https://automatetheboringstuff.com/2e/chapter6/)
 
-### Listas de Exercícios "Fáceis"
+## Listas de Exercícios "Fáceis"
 
 - [Listas](https://wiki.python.org.br/ExerciciosListas)
 - [Funções](https://wiki.python.org.br/ExerciciosFuncoes)
 - [Strings](https://wiki.python.org.br/EstruturaSequencial)
+
+## Lista de Execícios Interessantes
+
+- [Hacker Rank - Python](https://www.hackerrank.com/domains/python)
+- [Projeto Euler](https://projecteuler.net/)
 
 ### Atividades Propostas
