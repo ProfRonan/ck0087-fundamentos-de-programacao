@@ -210,7 +210,3 @@ Leia o restante do capítulo [Manipulating Strings](https://automatetheboringstu
 ## Créditos
 
 Esse texto foi fortemente inspirado no [Automate The Boring Stuff](https://automatetheboringstuff.com/2e/chapter5/) e também está sob a licença [Creative Commons](https://creativecommons.org/licenses/by-nc-sa/3.0/).
-
-```
-
-```
