@@ -4,7 +4,8 @@ São ferramentas para que seja possível reorganizar o código idealmente tornan
 
 ```python
 def nome_função():
-    """Docstring que é um comentário que explica o que a função faz
+    """
+    Docstring que é um comentário que explica o que a função faz
     Nesse caso a função imprime 'Hello' e depois 'oi'
     """
     print("Hello")
