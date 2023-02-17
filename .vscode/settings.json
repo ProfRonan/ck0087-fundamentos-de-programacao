@@ -1,16 +1,21 @@
 {
   "cSpell.words": [
-    "AEIO",
-    "Fghijklmnopqrstuvxwyz",
-    "frozenset",
-    "irracionais",
-    "pygame",
-    "Supercalifragilisticexpialidocius",
-    "Uaeiou"
+    "booleana",
+    "booleanas",
+    "Booleanas",
+    "booleano",
+    "Booleanos",
+    "elif",
+    "emchergar",
+    "indentado",
+    "indentados",
+    "KNOPPIX",
+    "nonlocal",
+    "Traceback",
+    "venv"
   ],
   "python.linting.pylintEnabled": true,
   "python.linting.pylintArgs": [
-    "--disable",
     "non-ascii-name, line-too-long, missing-function-docstring",
     "--extension-pkg-whitelist=pygame"
   ],

@@ -1,27 +1,25 @@
 # Fundamentos de Programação
 
-Arquivos com os códigos da disciplina de fundamentos de programação.
+Arquivos com as notas de aula da disciplina de fundamentos de programação.
 
+## Conteúdo da disciplina
 
-## Conteúdo da Segunda Prova
+- [Introdução](https://automatetheboringstuff.com/2e/chapter0/) ➡️ [Notas de aula](notas_de_aula/introdução/introdução.md)
+- [Capítulo 1 – Python Básico](https://automatetheboringstuff.com/2e/chapter1/) ➡️ [Notas de Aula](notas_de_aula/básico/básico.md) ➡️ [Exercícios Básicos](https://wiki.python.org.br/EstruturaSequencial)
+- [Capítulo 2 – Controle de Fluxo](https://automatetheboringstuff.com/2e/chapter2/) ➡️ [Notas de Aula](notas_de_aula/fluxo/controle_de_fluxo.md) ➡️ [Estrutura de Decisão](https://wiki.python.org.br/EstruturaDeDecisao) ➡️ [Estrutura de Repetição](https://wiki.python.org.br/EstruturaDeRepeticao)
+- [Capítulo 3 – Funções](https://automatetheboringstuff.com/2e/chapter3/) ➡️ [Notas de Aula](notas_de_aula/funções/funções.md) ➡️ [Funções](https://wiki.python.org.br/ExerciciosFuncoes)
+- [Capítulo 4 – Listas](https://automatetheboringstuff.com/2e/chapter4/) ➡️ [Notas de Aula](notas_de_aula/listas/listas.md) ➡️ [Listas](https://wiki.python.org.br/ExerciciosListas)
+- [Capítulo 5 – Dicionários e Dados Estruturados](https://automatetheboringstuff.com/2e/chapter5/) ➡️ [Notas de Aula](notas_de_aula/dicionários/dicionários.md)
+- [Capítulo 6 – Manipulação de Strings](https://automatetheboringstuff.com/2e/chapter6/) ➡️ [Notas de Aula](notas_de_aula/strings/strings.md) ➡️ [Strings](https://wiki.python.org.br/EstruturaSequencial)
 
-Principal:
+## Lista de Execícios Interessantes
 
-- [Chapter 4 – Lists](https://automatetheboringstuff.com/2e/chapter4/)
-- [Chapter 5 – Dictionaries and Structuring Data](https://automatetheboringstuff.com/2e/chapter5/)
-- [Chapter 6 – Manipulating Strings](https://automatetheboringstuff.com/2e/chapter6/)
+- [Hacker Rank - Python](https://www.hackerrank.com/domains/python)
+- [Projeto Euler](https://projecteuler.net/)
 
-Secundário:
+## Para rodar o repositório localmente
 
-- [Chapter 1 – Python Basics](https://automatetheboringstuff.com/2e/chapter1/)
-- [Chapter 2 – Flow Control](https://automatetheboringstuff.com/2e/chapter2/)
-- [Chapter 3 – Functions](https://automatetheboringstuff.com/2e/chapter3/)
-
-### Exercícios Recomendados
-
-- [EstruturaSequencial](https://wiki.python.org.br/EstruturaSequencial)
-- [EstruturaDeDecisao](https://wiki.python.org.br/EstruturaDeDecisao)
-- [EstruturaDeRepeticao](https://wiki.python.org.br/EstruturaDeRepeticao)
-- [ExerciciosListas](https://wiki.python.org.br/ExerciciosListas)
-- [ExerciciosFuncoes](https://wiki.python.org.br/ExerciciosFuncoes)
-- [ExerciciosComStrings](https://wiki.python.org.br/EstruturaSequencial)
+- Crie um ambiente virtual: `python -m venv .venv`
+- Ative o ambiente virtual: `source .venv/bin/activate`
+- Instale as dependências `pip install -r requirements.txt`
+- Se quiser desativar o ambiente virtual: `deactivate`
