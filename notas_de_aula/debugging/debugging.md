@@ -182,7 +182,7 @@ Explicar como funciona um debugger de forma geral, foge do escopo desse texto, c
 
 ## Leitura Recomendada
 
-Leia o restante do capítulo [Manipulating Strings](https://automatetheboringstuff.com/2e/chapter11/) existe a tradução automática do google para páginas inteiras como pode ser visto [clicando aqui](https://automatetheboringstuff-com.translate.goog/2e/chapter11/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=en&_x_tr_pto=wapp).
+Leia o restante do capítulo [Debugging](https://automatetheboringstuff.com/2e/chapter11/) existe a tradução automática do google para páginas inteiras como pode ser visto [clicando aqui](https://automatetheboringstuff-com.translate.goog/2e/chapter11/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=en&_x_tr_pto=wapp).
 
 ## Créditos
 
