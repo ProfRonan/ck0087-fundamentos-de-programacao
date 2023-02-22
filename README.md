@@ -11,6 +11,7 @@ Arquivos com as notas de aula da disciplina de fundamentos de programação.
 - [Capítulo 4 – Listas](https://automatetheboringstuff.com/2e/chapter4/) ➡️ [Notas de Aula](notas_de_aula/listas/listas.md) ➡️ [Listas](https://wiki.python.org.br/ExerciciosListas)
 - [Capítulo 5 – Dicionários e Dados Estruturados](https://automatetheboringstuff.com/2e/chapter5/) ➡️ [Notas de Aula](notas_de_aula/dicionários/dicionários.md)
 - [Capítulo 6 – Manipulação de Strings](https://automatetheboringstuff.com/2e/chapter6/) ➡️ [Notas de Aula](notas_de_aula/strings/strings.md) ➡️ [Strings](https://wiki.python.org.br/EstruturaSequencial)
+- [Capítulo 11 - Debugging](https://automatetheboringstuff.com/2e/chapter11/) ➡️ [Notas de Aula](notas_de_aula/debugging/debugging.md)
 
 ## Lista de Execícios Interessantes
 
