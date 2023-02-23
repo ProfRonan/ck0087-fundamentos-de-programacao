@@ -25,3 +25,9 @@ Arquivos com as notas de aula da disciplina de fundamentos de programação.
 - Ative o ambiente virtual: `source .venv/bin/activate`
 - Instale as dependências `pip install -r requirements.txt`
 - Se quiser desativar o ambiente virtual: `deactivate`
+
+## Conteúdo Bonus
+
+- [Notebooks](notas_de_aula/extra/intro_notebook.ipynb)
+- [Pandas](notas_de_aula/extra/intro_pandas.ipynb)
+- [Gráficos com Pandas e Matplotlib](notas_de_aula/extra/intro_pandas_graficos.ipynb)
