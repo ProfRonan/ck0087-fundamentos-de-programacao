@@ -1,18 +1,32 @@
 {
   "cSpell.words": [
+    "astype",
+    "barh",
     "booleana",
     "booleanas",
     "Booleanas",
     "booleano",
+    "booleanos",
     "Booleanos",
+    "dropna",
+    "dtype",
     "elif",
     "emchergar",
     "indentado",
     "indentados",
+    "Kaggle",
     "KNOPPIX",
+    "matplotlib",
+    "metascore",
+    "Miniconda",
+    "netflix",
     "nonlocal",
+    "notna",
+    "pyplot",
     "Traceback",
-    "venv"
+    "venv",
+    "xlabel",
+    "ylabel"
   ],
   "python.linting.pylintEnabled": true,
   "python.linting.pylintArgs": [
