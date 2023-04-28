@@ -135,10 +135,6 @@ def é_tri_retângulo(cateto1, cateto2, hipotenusa):
         return True
     return False
 
-lado1 = 3
-lado2 = 4
-lado3 = 5
-
 print(é_tri_retângulo(3, 4, 5))
 print(é_tri_retângulo(5, 4, 3))
 
