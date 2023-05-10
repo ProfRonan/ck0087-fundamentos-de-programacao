@@ -32,3 +32,7 @@ Arquivos com as notas de aula da disciplina de fundamentos de programação.
 - [Notebooks](notas_de_aula/extra/intro_notebook.ipynb)
 - [Pandas](notas_de_aula/extra/intro_pandas.ipynb)
 - [Gráficos com Pandas e Matplotlib](notas_de_aula/extra/intro_pandas_graficos.ipynb)
+
+## Links Interessantes
+
+-[Debbuger online](https://pythontutor.com/python-debugger.html#mode=edit)
