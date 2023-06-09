@@ -35,4 +35,4 @@ Arquivos com as notas de aula da disciplina de fundamentos de programação.
 
 ## Links Interessantes
 
-- [Debbuger online](https://pythontutor.com/python-debugger.html#mode=edit)
+- [Debugger online](https://pythontutor.com/python-debugger.html#mode=edit)
